@@ -127,7 +127,7 @@ export default function HomePage() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
             Garage Door Repair in<br />Pembroke Pines, FL
           </h1>
-          <p className="text-xl md:text-2xl mb-2 opacity-95 font-medium">
+          <p className="text-xl md:text-2xl mb-2 opacity-95 font-medium max-w-lg mx-auto">
             Broken spring? Door off track? We fix it same day.
           </p>
           <p className="text-base md:text-lg mb-8 opacity-80">
