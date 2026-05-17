@@ -128,7 +128,8 @@ export default function HomePage() {
             Garage Door Repair in<br />Pembroke Pines, FL
           </h1>
           <p className="text-xl md:text-2xl mb-2 opacity-95 font-medium">
-            Broken spring? Door off track?<br />We fix it same day.
+            Broken spring? Door off track? Opener stopped working?<br />
+            We can usually fix most issues the same day we come out.
           </p>
           <p className="text-base md:text-lg mb-8 opacity-80">
             Serving Silver Lakes, Chapel Trail, Pembroke Falls &amp; All of West Broward
