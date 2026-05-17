@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         navy: '#1e3a5f',
-        orange: '#f97316',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
