@@ -18,58 +18,58 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How quickly can you repair my garage door in Pembroke Pines?',
+      name: 'My garage door made a loud bang and won\'t open — what happened?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We offer same-day garage door repair service throughout Pembroke Pines and surrounding Broward County communities. In most cases, our licensed technicians can arrive the same day you call, 7 days a week from 7 AM to 8 PM.',
+        text: 'A loud bang followed by a door that won\'t open almost always means a broken torsion spring. Torsion springs are wound tightly above the door and store the energy needed to lift it. When one snaps, it releases with a loud crack and the door becomes too heavy to lift safely — by you or the opener. Do not attempt to operate the door. Call us for same-day spring replacement in Pembroke Pines.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How long do garage door springs last in Florida?',
+      name: 'Is it safe to use my garage door with a broken spring?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Florida's high humidity and salt air accelerate corrosion on torsion and extension springs. While garage door springs are typically rated for 10,000 cycles (7–10 years of normal use), South Florida homeowners often see springs fail sooner due to the coastal climate. Using galvanized or zinc-coated springs can extend spring life significantly.",
+        text: 'No — never operate a garage door with a broken torsion or extension spring. The springs counterbalance the full weight of the door, which can be 200–400 lbs. Without functional springs, the door can fall suddenly and without warning, causing serious injury or crushing your vehicle. Forcing the opener to lift the door without spring support can also burn out the opener motor. Call us immediately for emergency spring repair.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Do I need a hurricane-rated garage door in Pembroke Pines?',
+      name: 'How quickly can you get to Pembroke Pines for an emergency?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Many communities in Broward County, including gated neighborhoods like Pembroke Falls and Silver Lakes, require garage doors to meet minimum wind load ratings. Homes built after the 2002 Florida Building Code updates are especially likely to need Miami-Dade NOA approved products. We install hurricane-impact doors and can help you determine what wind load rating applies to your property.',
+        text: 'We offer same-day service throughout Pembroke Pines, 7 days a week from 7 AM to 8 PM. In most cases, a technician can arrive within a few hours of your call. We prioritize emergency situations — stuck doors, broken springs, and doors that won\'t close are treated as urgent calls. Call (754) 314-2244 and we\'ll give you an estimated arrival window right away.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Why does my garage door reverse before it fully closes?',
+      name: 'Will my HOA approve my new garage door?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "This is usually a photoelectric sensor issue. The two sensors at the base of your garage door tracks must be perfectly aligned and unobstructed. In South Florida, geckos and lizards commonly block sensor eyes, triggering the auto-reverse safety feature. Dirt, humidity, and direct afternoon sunlight can also cause sensor interference. We diagnose and repair sensor issues quickly.",
+        text: 'Many Pembroke Pines HOAs — including Silver Lakes, Chapel Trail, Pembroke Falls, and Grand Palms — require written pre-approval before replacing a garage door. HOAs typically specify allowable colors, panel styles, and materials. Our technicians are familiar with the common requirements across Pembroke Pines communities and can walk you through the approval process before we order your door, saving you from costly rejections.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Is it safe to use my garage door if a spring is broken?',
+      name: 'Why does my garage door reverse right before it closes?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No — never attempt to operate a garage door with a broken torsion or extension spring. The springs counterbalance the full weight of the door (often 200–400 lbs). Without functional springs, the door is unsafe and can fall suddenly, causing serious injury or damage to your vehicle. Call us immediately for same-day spring replacement.',
+        text: 'This is almost always a photoelectric sensor problem. The two sensors at the base of your door tracks send an invisible beam across the opening — if anything breaks that beam, the door reverses as a safety measure. In South Florida, geckos and anoles love to perch on sensor eyes, blocking the beam. Afternoon sunlight hitting sensors directly can also interfere with the signal. Misalignment, dirt buildup, and humidity can cause the same problem. We clean, realign, and replace sensors quickly.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How much does garage door repair cost in Pembroke Pines?',
+      name: 'How long do garage door springs last in South Florida\'s humidity?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Repair costs vary depending on the type of service. Spring replacement typically runs $150–$500 in Pembroke Pines. Opener repair or replacement ranges from $150–$600 including parts and labor. Cable replacement typically costs $100–$250. We provide free estimates on all repairs before any work begins.',
+        text: 'Standard torsion springs are rated for 10,000 cycles — roughly 7 to 10 years under normal use. But South Florida\'s salt air, high humidity, and heat significantly accelerate spring corrosion and metal fatigue. Homeowners in Pembroke Pines often see spring failure in 5 to 7 years with standard springs. We recommend galvanized or zinc-coated springs rated for coastal climates, which can add years of life. High-cycle springs (25,000+ cycles) are also available for high-traffic garages.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Do HOAs in Pembroke Pines regulate garage door replacements?',
+      name: 'Can lizards really cause my garage door sensor to malfunction?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes — many Pembroke Pines HOAs, including those in Silver Lakes, Chapel Trail, Pembroke Falls, and Grand Palms, require pre-approval before replacing a garage door. Your HOA may have specific requirements for door color, panel style, and material. Our technicians are familiar with common HOA guidelines across Pembroke Pines and can advise you before ordering a new door.',
+        text: 'Yes — and it\'s one of the most common sensor complaints we hear in Pembroke Pines. Florida\'s geckos, green anoles, and brown anoles are attracted to warm surfaces and the glow of sensor LEDs. When a lizard sits on or directly in front of a sensor eye, it breaks the photoelectric beam and triggers the auto-reverse safety feature. The fix is usually as simple as gently clearing the sensor and checking for obstructions. If the problem keeps recurring, we can reposition or replace the sensors.',
       },
     },
   ],
@@ -77,32 +77,32 @@ const faqSchema = {
 
 const homepageFAQs = [
   {
-    question: 'How quickly can you repair my garage door in Pembroke Pines?',
-    answer: 'We offer same-day garage door repair service throughout Pembroke Pines and surrounding Broward County communities. In most cases, our licensed technicians can arrive the same day you call, 7 days a week from 7 AM to 8 PM.',
+    question: "My garage door made a loud bang and won't open — what happened?",
+    answer: "A loud bang followed by a door that won't open almost always means a broken torsion spring. When one snaps, it releases with a loud crack and the door becomes too heavy to lift safely. Do not attempt to operate the door. Call us for same-day spring replacement in Pembroke Pines.",
   },
   {
-    question: 'How long do garage door springs last in Florida?',
-    answer: "Florida's high humidity and salt air accelerate corrosion on torsion and extension springs. While garage door springs are typically rated for 10,000 cycles (7–10 years of normal use), South Florida homeowners often see springs fail sooner due to the coastal climate. Galvanized or zinc-coated springs can extend spring life significantly.",
+    question: 'Is it safe to use my garage door with a broken spring?',
+    answer: "No — never operate a garage door with a broken torsion or extension spring. The springs counterbalance the full weight of the door (200–400 lbs). Without functional springs, the door can fall suddenly, causing serious injury or crushing your vehicle. Call us immediately for emergency spring repair.",
   },
   {
-    question: 'Do I need a hurricane-rated garage door in Pembroke Pines?',
-    answer: 'Many communities in Broward County require garage doors to meet minimum wind load ratings. Homes built after 2002 Florida Building Code updates are especially likely to need Miami-Dade NOA approved products. We install hurricane-impact doors and can determine what rating applies to your property.',
+    question: 'How quickly can you get to Pembroke Pines for an emergency?',
+    answer: "We offer same-day service throughout Pembroke Pines, 7 days a week from 7 AM to 8 PM. In most cases, a technician arrives within a few hours. We prioritize emergency situations — stuck doors, broken springs, and doors that won't close are treated as urgent calls.",
   },
   {
-    question: 'Why does my garage door reverse before it fully closes?',
-    answer: 'This is usually a photoelectric sensor issue. In South Florida, geckos and lizards commonly block sensor eyes, triggering the auto-reverse safety feature. Dirt, humidity, and direct afternoon sunlight can also cause sensor interference. We diagnose and repair sensor issues quickly.',
+    question: 'Will my HOA approve my new garage door?',
+    answer: "Many Pembroke Pines HOAs — including Silver Lakes, Chapel Trail, Pembroke Falls, and Grand Palms — require written pre-approval before replacing a garage door. Our technicians know the common requirements across Pembroke Pines communities and can walk you through the approval process before we order your door.",
   },
   {
-    question: 'Is it safe to use my garage door if a spring is broken?',
-    answer: 'No — never attempt to operate a garage door with a broken torsion or extension spring. The springs counterbalance the full weight of the door (200–400 lbs). Without functional springs, the door is unsafe and can fall suddenly. Call us immediately for same-day spring replacement.',
+    question: 'Why does my garage door reverse right before it closes?',
+    answer: "This is almost always a photoelectric sensor problem. In South Florida, geckos and anoles love to perch on sensor eyes, breaking the beam and triggering the auto-reverse. Afternoon sunlight, misalignment, and humidity buildup cause the same issue. We clean, realign, and replace sensors quickly.",
   },
   {
-    question: 'How much does garage door repair cost in Pembroke Pines?',
-    answer: 'Spring replacement typically runs $150–$500. Opener repair or replacement ranges from $150–$600 including parts and labor. Cable replacement typically costs $100–$250. We provide free estimates on all repairs before any work begins.',
+    question: "How long do garage door springs last in South Florida's humidity?",
+    answer: "Standard torsion springs are rated for 10,000 cycles — roughly 7 to 10 years. But South Florida's salt air, humidity, and heat significantly accelerate spring corrosion. Pembroke Pines homeowners often see spring failure in 5 to 7 years. We recommend galvanized or zinc-coated springs rated for coastal climates.",
   },
   {
-    question: 'Do HOAs in Pembroke Pines regulate garage door replacements?',
-    answer: 'Yes — many Pembroke Pines HOAs require pre-approval before replacing a garage door, with specific requirements for door color, panel style, and material. Our technicians are familiar with common HOA guidelines across Pembroke Pines and can advise you before ordering a new door.',
+    question: 'Can lizards really cause my garage door sensor to malfunction?',
+    answer: "Yes — and it's one of the most common sensor complaints in Pembroke Pines. Florida's geckos and anoles are attracted to the warm surface and LED glow of sensor eyes. When one sits in front of a sensor, it breaks the photoelectric beam and triggers the auto-reverse. Usually a quick clear fixes it — if the problem recurs, we can reposition the sensors.",
   },
 ]
 
@@ -127,9 +127,11 @@ export default function HomePage() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
             Garage Door Repair in<br />Pembroke Pines, FL
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Fast, Affordable &amp; Reliable — Serving Silver Lakes, Chapel Trail,<br className="hidden md:block" />
-            Pembroke Falls &amp; All of West Broward
+          <p className="text-xl md:text-2xl mb-2 opacity-95 font-medium">
+            Broken spring? Door off track? Opener stopped working? We fix it same day.
+          </p>
+          <p className="text-base md:text-lg mb-8 opacity-80">
+            Serving Silver Lakes, Chapel Trail, Pembroke Falls &amp; All of West Broward
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={`tel:${SITE.phoneRaw}`}
@@ -140,6 +142,20 @@ export default function HomePage() {
               className="bg-white hover:bg-gray-100 text-navy font-bold py-4 px-8 rounded-lg text-xl transition-colors shadow-lg">
               Get a Free Estimate
             </Link>
+          </div>
+          {/* Improvement 2: Hero trust badges */}
+          <div className="flex flex-wrap justify-center gap-2 mt-8">
+            {[
+              { icon: '⚡', label: 'Same-Day Service' },
+              { icon: '🛡️', label: 'Licensed & Insured' },
+              { icon: '⭐', label: '15+ Years Experience' },
+              { icon: '🔧', label: 'Free Estimates' },
+            ].map((b) => (
+              <span key={b.label}
+                className="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur-sm border border-white/30 text-white text-sm font-semibold px-3 py-1.5 rounded-full">
+                {b.icon} {b.label}
+              </span>
+            ))}
           </div>
         </div>
       </section>
@@ -194,12 +210,15 @@ export default function HomePage() {
             From urgent spring replacements to complete new door installations, our licensed technicians handle every type
             of garage door problem across all of Pembroke Pines.
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {SERVICES.map((s) => (
               <Link key={s.slug} href={`/services/${s.slug}`}
-                className="bg-white rounded-xl p-5 text-center shadow-sm hover:shadow-md border border-gray-100 hover:border-orange-200 transition-all group">
-                <div className="text-3xl mb-2">{s.icon}</div>
-                <h3 className="font-bold text-navy group-hover:text-orange-500 transition-colors text-sm">{s.name}</h3>
+                className="bg-white rounded-xl p-5 shadow-sm hover:shadow-md border border-gray-100 hover:border-orange-200 transition-all group flex sm:flex-col items-start sm:items-center gap-3 sm:gap-0 sm:text-center">
+                <div className="text-3xl sm:mb-2 flex-shrink-0">{s.icon}</div>
+                <div>
+                  <h3 className="font-bold text-navy group-hover:text-orange-500 transition-colors text-sm mb-1">{s.name}</h3>
+                  <p className="text-gray-500 text-xs leading-snug">{s.description}</p>
+                </div>
               </Link>
             ))}
           </div>
@@ -273,11 +292,11 @@ export default function HomePage() {
               />
             </div>
             <div>
-              <h2 className="section-heading">See the Difference We Make</h2>
+              <h2 className="section-heading">The South Florida Difference — Rust, Humidity &amp; Salt Air Destroy Garage Doors. We Restore Them.</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                A properly functioning garage door does more than keep your car safe — it protects your family, your
-                belongings, and adds real value to your home. When a torsion spring snaps, a cable frays, or an opener
-                motor fails, the door becomes a liability.
+                Florida&apos;s coastal climate is uniquely harsh on garage door hardware. Salt air corrodes springs and
+                cables. Humidity warps panels and seals. Heat causes rollers to bind. Our technicians use galvanized and
+                stainless hardware specifically rated for South Florida conditions — not generic parts that fail within a year.
               </p>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Our technicians don&apos;t just patch problems. We perform a full safety inspection on every visit —
@@ -333,7 +352,8 @@ export default function HomePage() {
       {/* Florida-specific section */}
       <section className="py-14 bg-blue-50">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="section-heading text-center">Why South Florida Garage Doors Need Special Attention</h2>
+          <h2 className="section-heading text-center">Why Pembroke Pines Homeowners Need a LOCAL Garage Door Expert</h2>
+          <p className="text-center text-gray-600 text-lg mb-2">National call centers don&apos;t know South Florida. We do.</p>
           <div className="grid md:grid-cols-2 gap-6 mt-8">
             {[
               {
@@ -372,8 +392,8 @@ export default function HomePage() {
 
       {/* Final CTA */}
       <CTASection
-        heading="Ready to Fix Your Garage Door?"
-        subheading="Free estimates. Same-day service. Licensed & insured across Pembroke Pines and Broward County."
+        heading="Garage Door Emergency in Pembroke Pines? We're Ready."
+        subheading="Same-day service. Licensed & insured. Free estimates. Call (754) 314-2244 now — we answer 7 days a week."
         variant="navy"
       />
     </>

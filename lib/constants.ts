@@ -15,14 +15,14 @@ export const SITE = {
 }
 
 export const SERVICES = [
-  { slug: 'spring-replacement', name: 'Spring Replacement', shortName: 'Springs', icon: '🔧' },
-  { slug: 'opener-repair', name: 'Opener Repair', shortName: 'Openers', icon: '📡' },
-  { slug: 'off-track-repair', name: 'Off-Track Repair', shortName: 'Off-Track', icon: '🛤️' },
-  { slug: 'cable-replacement', name: 'Cable Replacement', shortName: 'Cables', icon: '⚙️' },
-  { slug: 'sensor-repair', name: 'Sensor Repair', shortName: 'Sensors', icon: '👁️' },
-  { slug: 'roller-replacement', name: 'Roller Replacement', shortName: 'Rollers', icon: '🔩' },
-  { slug: 'emergency-repair', name: 'Emergency Repair', shortName: 'Emergency', icon: '🚨' },
-  { slug: 'new-installation', name: 'New Door Installation', shortName: 'Installation', icon: '🏠' },
+  { slug: 'spring-replacement', name: 'Spring Replacement', shortName: 'Springs', icon: '🔧', description: 'Loud bang? Door won\'t open? A broken torsion spring is the #1 garage door emergency in South Florida.' },
+  { slug: 'opener-repair', name: 'Opener Repair', shortName: 'Openers', icon: '📡', description: 'Door hums but won\'t move? Remote stopped working? We diagnose and fix all major brands same day.' },
+  { slug: 'off-track-repair', name: 'Off-Track Repair', shortName: 'Off-Track', icon: '🛤️', description: 'Door hanging crooked or stuck sideways? Don\'t force it — call us before it gets worse.' },
+  { slug: 'cable-replacement', name: 'Cable Replacement', shortName: 'Cables', icon: '⚙️', description: 'Frayed or snapped cable? Door lifting unevenly? This is dangerous — let our techs handle it safely.' },
+  { slug: 'sensor-repair', name: 'Sensor Repair', shortName: 'Sensors', icon: '👁️', description: 'Door reverses for no reason? In South Florida, heat, humidity, and lizards blocking sensor eyes are common culprits.' },
+  { slug: 'roller-replacement', name: 'Roller Replacement', shortName: 'Rollers', icon: '🔩', description: 'Grinding, squeaking, or rattling every time the door moves? Worn nylon rollers are usually the cause.' },
+  { slug: 'emergency-repair', name: 'Emergency Repair', shortName: 'Emergency', icon: '🚨', description: 'Can\'t get your car out? Door stuck open overnight? We prioritize same-day emergency calls across Pembroke Pines.' },
+  { slug: 'new-installation', name: 'New Door Installation', shortName: 'Installation', icon: '🏠', description: 'Ready for a new door? We install hurricane-rated sectional doors that meet Broward County wind load requirements and HOA standards.' },
 ]
 
 export const NEIGHBORHOODS = [

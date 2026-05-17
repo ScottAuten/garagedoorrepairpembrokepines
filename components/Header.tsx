@@ -14,7 +14,7 @@ export default function Header() {
       {/* Top bar — phone prominent */}
       <div className="bg-navy text-white text-sm py-1.5 text-center">
         <a href={`tel:${SITE.phoneRaw}`} className="font-semibold hover:text-orange-300 transition-colors">
-          📞 Same-Day Service Available — Call Now: {SITE.phone}
+          🔧 Broken garage door? We offer same-day service across Pembroke Pines — Call Now: {SITE.phone}
         </a>
       </div>
 
