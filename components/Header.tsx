@@ -30,6 +30,8 @@ export default function Header() {
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-6">
+            <Link href="/" className="nav-link">Home</Link>
+
             {/* Services dropdown */}
             <div className="relative" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)}>
               <button className="nav-link flex items-center gap-1 py-4">
